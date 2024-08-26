@@ -1,30 +1,9 @@
-"use client"
 
-import React, { useEffect } from 'react';
 import { FaPlay } from "react-icons/fa";
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-// Register the ScrollTrigger plugin
-gsap.registerPlugin(ScrollTrigger);
+
 
 function Hero() {
-
-  useEffect(() => {
-    gsap.from('.animate', {
-      y: '100%',
-      opacity: 0,
-      duration: 0.5,
-      ease: 'power2.inOut',
-      stagger: 0.15,
-      scrollTrigger: {
-        trigger: '.animate',
-        start: 'top 80%',
-        end: 'bottom top',
-        scrub: true,
-      },
-    });
-  }, []);
 
 
   return (
