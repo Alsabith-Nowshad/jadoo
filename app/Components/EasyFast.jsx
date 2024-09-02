@@ -2,7 +2,7 @@ import React from 'react'
 
 function EasyFast() {
   return (
-    <div className='w-full h-screen  px-[10vw] gap-10 justify-center items-center sm:px-20  lg:flex'>
+    <div className='w-full h-auto  px-[10vw] gap-10 justify-center items-center sm:px-20  lg:flex'>
       <div className="left flex flex-col gap-2">
       <div className="top flex flex-col font-bold w-full mb-8  items-center lg:items-start">
         <h1 className='text-gray-600'>Easy and Fast</h1>
